@@ -61,3 +61,9 @@ GET  /api/users/:id      # Granular query pathing for singular records
 
 **Disclaimer**
 This repository is built exclusively for educational, academic, and defensive training validation models. All testing and scanning operations were locked down and targeted only to a localized loopback runtime environment (localhost). No production networks, enterprise web properties, or live external data sources were targeted, altered, or harmed over the execution of this analysis project.
+
+## 👨‍💻 Author
+
+**Ansh Ganesh Dabholkar**
+
+Cybersecurity | SaaS Security
