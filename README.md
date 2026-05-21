@@ -61,4 +61,5 @@ GET  /api/users/:id      # Granular query pathing for singular records
 
 **📊 Security Findings & Risk Matrix**
 
-<img width="993" height="440" alt="image" src="https://github.com/user-attachments/assets/d933db08-5733-48c8-a56a-b73c1b1d25f8"/>
+<img width="1024" height="454" alt="image" src="https://github.com/user-attachments/assets/d220652e-00fe-4691-aaa6-64fc1d42e049" />
+
