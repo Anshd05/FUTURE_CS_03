@@ -7,9 +7,9 @@ End-to-end API Security Risk Analysis lab simulating real-world SaaS AppSec work
 
 ## 📌 Executive Summary
 
-Modern cloud-native and SaaS ecosystems rely entirely on distributed microservices and Web APIs to handle internal state, power client dashboards, and ingest business-critical data. Consequently, APIs have become the primary attack surface for sophisticated enterprise threat actors.
+Modern cloud-native and SaaS ecosystems rely entirely on distributed microservices and Web APIs to handle internal state, power client dashboards, and ingest business-critical data. Consequently, [...]
 
-This repository features a complete **SaaS API Security Risk Analysis simulation** built inside an isolated local environment using **Kali Linux**. Modeled after real-world engagements conducted by Application Security (AppSec) Teams and SaaS Security Consultants, this project illustrates a strict **read-only, non-intrusive security audit**. The core goal is to map API endpoints, evaluate architectural exposure vectors against the **OWASP API Security Top 10**, parse header configurations, and transform raw technical telemetry into developer-remediable, business-focused reports.
+This repository features a complete **SaaS API Security Risk Analysis simulation** built inside an isolated local environment using **Kali Linux**. Modeled after real-world engagements conducted b[...]
 
 ## 🎯 Lab Objectives
 
@@ -60,10 +60,14 @@ GET  /api/users/:id      # Granular query pathing for singular records
   [ OWASP API-7 ] ──► Server Misconfiguration (Weak Security Headers & Verbose Errors)
 
 **Disclaimer**
-This repository is built exclusively for educational, academic, and defensive training validation models. All testing and scanning operations were locked down and targeted only to a localized loopback runtime environment (localhost). No production networks, enterprise web properties, or live external data sources were targeted, altered, or harmed over the execution of this analysis project.
+This repository is built exclusively for educational, academic, and defensive training validation models. All testing and scanning operations were locked down and targeted only to a localized loop[...]
 
 ## 👨‍💻 Author
 
 **Ansh Ganesh Dabholkar**
 
 Cybersecurity | SaaS Security
+
+---
+
+#cybersecurity #api-security #owasp #appsec #kali-linux #saas-security #penetration-testing #postman #security-analysis #ethical-hacking #nodejs #api-testing #security-research 
