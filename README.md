@@ -59,7 +59,5 @@ GET  /api/users/:id      # Granular query pathing for singular records
   [ OWASP API-4 ] ──► Unrestricted Resource Consumption (Missing Rate Limiting)
   [ OWASP API-7 ] ──► Server Misconfiguration (Weak Security Headers & Verbose Errors)
 
-**📊 Security Findings & Risk Matrix**
-
-<img width="1024" height="454" alt="image" src="https://github.com/user-attachments/assets/d220652e-00fe-4691-aaa6-64fc1d42e049" />
-
+**Disclaimer**
+This repository is built exclusively for educational, academic, and defensive training validation models. All testing and scanning operations were locked down and targeted only to a localized loopback runtime environment (localhost). No production networks, enterprise web properties, or live external data sources were targeted, altered, or harmed over the execution of this analysis project.
