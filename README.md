@@ -46,18 +46,20 @@ The assessment runtime environment and analysis toolkit were structured as follo
 The mock infrastructure provisions a modern, RESTful customer account dashboard backend running locally at `http://localhost:3000`.
 
 ### Exposed Endpoint Routing
-```http
+```
 GET  /                   # Root application landing (Environment identification)
 GET  /health             # Node deployment diagnostics & health checking
 GET  /api/users          # Collective profile directory querying 
 GET  /api/users/:id      # Granular query pathing for singular records
+```
 
-**Core Security Risks Evaluated**
-  [ OWASP API-1 ] ──► Broken Object Level Authorization (BOLA) / IDOR Paths
-  [ OWASP API-2 ] ──► Broken Authentication / Public exposure of sensitive data
-  [ OWASP API-3 ] ──► Broken Object Property Level Authorization (Excessive Data)
-  [ OWASP API-4 ] ──► Unrestricted Resource Consumption (Missing Rate Limiting)
-  [ OWASP API-7 ] ──► Server Misconfiguration (Weak Security Headers & Verbose Errors)
+## Core Security Risks Evaluated
+
+[ OWASP API-1 ] ──► Broken Object Level Authorization (BOLA) / IDOR Paths
+[ OWASP API-2 ] ──► Broken Authentication / Public exposure of sensitive data
+[ OWASP API-3 ] ──► Broken Object Property Level Authorization (Excessive Data)
+[ OWASP API-4 ] ──► Unrestricted Resource Consumption (Missing Rate Limiting)
+[ OWASP API-7 ] ──► Server Misconfiguration (Weak Security Headers & Verbose Errors)
 
 **Disclaimer**
 This repository is built exclusively for educational, academic, and defensive training validation models. All testing and scanning operations were locked down and targeted only to a localized loop[...]
